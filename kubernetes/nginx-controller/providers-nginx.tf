@@ -27,7 +27,7 @@ data "aws_eks_cluster_auth" "hr-dev-eks-demo_auth" {
 
 
 provider "aws" {
-  region     = "eu-west-2"
+  region     = "us-east-1"
 }
 
 provider "helm" {

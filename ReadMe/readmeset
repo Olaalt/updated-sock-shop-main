@@ -1,0 +1,25 @@
+#    requirements
+a cloud Account
+a key pair
+security group 
+github account
+
+# setup
+
+
+create an account on your cloud provider
+create an Ec2 instance t2medium or larger
+Connect to it 
+clone the github repo (git clone https://github.com/Olaalt/updated-sock-shop-main.git  name of a folder )  
+cd into the folder that was named 
+Make the installer.sh file executable (chmod +x installer.sh)
+Run the installer.sh file (./installer.sh)
+acknowledge all prompts @ th end will see this page
+![installer.sh-comp](installer.sh-comp.png) press ctrl + c then y
+
+  # setting up jenkins 
+ I did get my set up a jenkins administrator account
+and run my first file which is cluster-jenkins
+the EKS cluster was created.
+the while installing the second file jenkins it took over 2 hour ank was not completed and hang that ais where I made a mistake and deleted the jenkins server with out running the destroy 
+I could not get the vpc deleted nor the things attached to it mine while in 3 days the AWS bill Clime to 16usd so i had to delete my Aws acc because        
