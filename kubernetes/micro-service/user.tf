@@ -24,7 +24,7 @@ resource "kubernetes_deployment" "kube-user-deployment" {
       }
       spec {
         container {
-          image = "weaveworksdemos/user:0.4.7"
+          image = "weaveworkscapstone/user:0.4.7"
           name  = "user"
 
       env {
