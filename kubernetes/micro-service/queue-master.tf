@@ -24,7 +24,7 @@ resource "kubernetes_deployment" "kube-queue-master-deployment" {
       }
       spec {
         container {
-          image = "weaveworkcapstone/queue-master:0.3.1"
+          image = "weaveworkdemos/queue-master:0.3.1"
           name  = "queue-master"
 
       env {
