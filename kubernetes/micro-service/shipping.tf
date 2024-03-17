@@ -24,7 +24,7 @@ resource "kubernetes_deployment" "kube-shipping-deployment" {
       }
       spec {
         container {
-          image = "weaveworkscapstone/shipping:0.4.8"
+          image = "weaveworksdemos/shipping:0.4.8"
           name  = "shipping"
 
       env {
