@@ -1,3 +1,12 @@
+
+This project deployed a microservices-based application using Jenkins  CI/CD pipeline by use of  terraform to ensure quick, reliable, and secure deployment on Kubernetes. By focusing on Infrastructure as Code, Using terraform to create a reproducible and maintainable deployment process that leverages modern DevOps practices and tools.
+
+# H3 Capstone ci Architecture
+![]
+
+
+
+
 #    requirements
 a cloud Account
 a key pair
