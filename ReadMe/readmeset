@@ -1,34 +1,47 @@
 
 This project deployed a microservices-based application using Jenkins  CI/CD pipeline by use of  terraform to ensure quick, reliable, and secure deployment on Kubernetes. By focusing on Infrastructure as Code, Using terraform to create a reproducible and maintainable deployment process that leverages modern DevOps practices and tools.
 
-# H3 Capstone ci Architecture
-![]
+#  Capstone CI/CD Architecture
+----
+
+
+[Cicd-art.png](updated-sock-shop-main\ReadMe\Cicd-art.png)
+![cicd-art](image.png)
 
 
 
+#    Requirements
 
-#    requirements
-a cloud Account
-a key pair
-security group 
-github account
+1 . A cloud Account
+ 
+2 . A key pair 
+
+3 . Security group 
+
+4 . github account
 
 # setup
+ These are the files we will be running.
 
+![sock shop build](image-3.png)
 
-create an account on your cloud provider
+Create an account on your cloud provider
 create an Ec2 instance t2medium or larger
 Connect to it 
 clone the github repo (git clone https://github.com/Olaalt/updated-sock-shop-main.git  name of a folder )  
-cd into the folder that was named 
-Make the installer.sh file executable (chmod +x installer.sh)
-Run the installer.sh file (./installer.sh)
+**cd** into the folder that was named 
+Make the installer.sh file executable **(chmod +x installer.sh)**
+Run the installer.sh file **(./installer.sh)**
 acknowledge all prompts @ th end will see this page
-![installer.sh-comp](updated-sock-shop-main\ReadMe\installer.sh-comp.png) press ctrl + c then y
+ ![installer.sh end](image-5.png) press ctrl + c then y
 
-  # setting up jenkins 
- I did get my set up a jenkins administrator account
-and run my first file which is cluster-jenkins
-the EKS cluster was created.
-the while installing the second file jenkins it took over 2 hour ank was not completed and hang that ais where I made a mistake and deleted the jenkins server with out running the destroy 
-I could not get the vpc deleted nor the things attached to it mine while in 3 days the AWS bill Clime to 16usd so i had to delete my Aws acc because        
+Cut and pase the admin password
+  # setting up jenkins
+   ![setting up Jenkins](image-4.png)
+  setting up a jenkins administrator account
+run this command to see Jenkins password copy and pase id in the panel click continue.
+![Jenkins user acc](image-6.png)
+this is the next screen which is use to set up the user acc to log into the Jenkins server **please save credentials** 
+
+go to settings and enable 
+![Jenkins dash bard](image-7.png)
