@@ -34,14 +34,30 @@ Make the installer.sh file executable **(chmod +x installer.sh)**
 Run the installer.sh file **(./installer.sh)**
 acknowledge all prompts @ th end will see this page
  ![installer.sh end](image-5.png) press ctrl + c then y
-
 Cut and pase the admin password
-  # setting up jenkins
+  # setting up Jenkins
    ![setting up Jenkins](image-4.png)
   setting up a jenkins administrator account
 run this command to see Jenkins password copy and pase id in the panel click continue.
 ![Jenkins user acc](image-6.png)
 this is the next screen which is use to set up the user acc to log into the Jenkins server **please save credentials** 
 
+![Jenkins plugins](image-13.png)
+
 go to settings and enable 
+## Set up Jenkins access to Github & AWS ##
 ![Jenkins dash bard](image-7.png)
+go to global  to set up the keys jenkins will need to get into your Github acc,and AWS acc
+![Github aut setup ](image-8.png)
+setup AWS access for jenkins access key ID and secret key ID
+![access key ID](image-9.png)
+
+![Keys setup for jenkins access](image-12.png)
+
+## setting up two pipeline ##
+A pipe line for **cluster-jenkinsfile & for jenkins file**
+Select new item 
+![Jenkins dashboard](image-11.png)
+Name the pipe line
+![setting up a pipeline](image-10.png)
+![ step 2 in pipeline setup](image-14.png)
