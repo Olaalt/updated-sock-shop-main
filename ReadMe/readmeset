@@ -61,3 +61,13 @@ Select new item
 Name the pipe line
 ![setting up a pipeline](image-10.png)
 ![ step 2 in pipeline setup](image-14.png)
+
+After Deploy is completed
+
+# Route 53 #
+
+open route 53 i aws console and copy the sever name from the route5 3to your domain provide and save it.
+
+## Viewing Grapfana  and sock shop on browser ##
+
+Copy the grafana and sock-shop URL with the domain name in the browser to see the default page
