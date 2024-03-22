@@ -32,8 +32,8 @@ clone the github repo (git clone https://github.com/Olaalt/updated-sock-shop-mai
 **cd** into the folder that was named 
 Make the installer.sh file executable **(chmod +x installer.sh)**
 Run the installer.sh file **(./installer.sh)**
-acknowledge all prompts @ th end will see this page
- ![installer.sh end](image-5.png) press ctrl + c then y
+acknowledge all prompts @ the end will see this page
+ ![installer.sh end](image-5.png) press ctrl + c then y. Copy the ip address in the browser (ip address:8080 ) to open jenkins sever
 Cut and pase the admin password
   # setting up Jenkins
    ![setting up Jenkins](image-4.png)
